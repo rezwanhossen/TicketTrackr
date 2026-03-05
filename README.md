@@ -1,16 +1,37 @@
-# React + Vite
+## What is JSX, and why is it used?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- JSX stands for JavaScript XML. It is a syntax that allows developers to write HTML-like code inside JavaScript. This makes it easier to create and design user interfaces in React. Browsers cannot understand JSX directly. Therefore, it needs to be converted into regular JavaScript. This conversion is done using Babel. Babel is an open-source JavaScript compiler that transforms modern JavaScript (such as ES6) into a version that can run in older browsers or environments.
 
-Currently, two official plugins are available:
+## What is the difference between State and Props?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- State is used to store dynamic data inside a component. It belongs to the component itself and can be changed or updated using functions like setState or useState. The component controls and manages its own state, and when the state changes, the component re-renders.
 
-## React Compiler
+- Props are used to pass data from a parent component to a child component. Props are read-only, meaning they cannot be changed directly by the child component. The parent component controls the data, and the child component only receives and uses it.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## What is the useState hook, and how does it work?
 
-## Expanding the ESLint configuration
+- State is used to store data inside a component. When the state changes, the component re-renders automatically to update the UI. State works with two values:
+  Current value – the present state value
+  Update function – a function used to change the state value
+  Ex:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+import { useState } from "react";
+
+const Counter=()=> {
+  const [count, setCount] = useState(0);
+
+  const handlClick = () => {
+    setCount(count + 1);
+  };
+
+  return (
+    <div>
+      <h2>{count}</h2>
+      <button onClick={handlClick}>Increase</button>
+    </div>
+  );
+}
+
+export default Counter;
+```
