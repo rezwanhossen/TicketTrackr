@@ -2,7 +2,7 @@ import React from "react";
 import vectoe1 from "/vector1.png";
 import vectoe2 from "/Clip path group.png";
 
-const Banner = () => {
+const Banner = ({ inProgress, reslove }) => {
   return (
     <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 my-5">
       <div className=" hero min-h-60 rounded-xl relative bg-linear-to-r from-[#632EE3] to-[#9F62F2] overflow-hidden">
@@ -19,7 +19,7 @@ const Banner = () => {
         <div className=" hero-content text-center relative z-10">
           <div>
             <h1 className=" text-2xl font-bold">In-Progress</h1>
-            <h1 className=" text-5xl font-bold">0</h1>
+            <h1 className=" text-5xl font-bold">{inProgress.length}</h1>
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ const Banner = () => {
         <div className=" hero-content text-center relative z-10">
           <div>
             <h1 className=" text-2xl font-bold">Resolved</h1>
-            <h1 className=" text-5xl font-bold">0</h1>
+            <h1 className=" text-5xl font-bold">{reslove.length} </h1>
           </div>
         </div>
       </div>

@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1000,
+    "title": "Login page not loading",
+    "description": "User unable to access login page after latest update.",
+    "customer": "Rahim Ahmed",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 1001,
+    "title": "Payment gateway error",
+    "description": "Transaction fails during checkout process.",
+    "customer": "Nusrat Jahan",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 1002,
+    "title": "Profile update issue",
+    "description": "Customer cannot update profile information.",
+    "customer": "Tanvir Hasan",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 1003,
+    "title": "Email notification not received",
+    "description": "System not sending verification emails.",
+    "customer": "Sadia Islam",
+    "priority": "Medium",
+    "status": "In-Progress",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 5000,
+    "title": "Dashboard data mismatch",
+    "description": "Incorrect data displayed in analytics section.",
+    "customer": "Arif Hossain",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 5002,
+    "title": "Password reset link expired",
+    "description": "Reset password link expires immediately.",
+    "customer": "Mim Akter",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 7002,
+    "title": "Mobile responsiveness issue",
+    "description": "UI breaks on smaller screen devices.",
+    "customer": "Jahid Karim",
+    "priority": "Medium",
+    "status": "In-Progress",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 8433,
+    "title": "Search feature not working",
+    "description": "Search returns empty results for valid queries.",
+    "customer": "Farzana Rahman",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 90003,
+    "title": "File upload failed",
+    "description": "Users cannot upload attachments in support form.",
+    "customer": "Rakib Chowdhury",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 13220,
+    "title": "Slow page loading",
+    "description": "Application takes too long to load dashboard.",
+    "customer": "Lamia Sultana",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2026-03-06"
+  },
+  {
+    "id": 11003,
+    "title": "Account suspension error",
+    "description": "Active account marked as suspended incorrectly.",
+    "customer": "Hasib Mahmud",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2026-03-06"
+  },
+  {
+    "id": 12023,
+    "title": "Notification sound not playing",
+    "description": "Alert sound does not trigger for new tickets.",
+    "customer": "Sharmin Akter",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-03-07"
+  },
+  {
+    "id": 12323,
+    "title": "Incorrect invoice generated",
+    "description": "Invoice shows wrong billing information.",
+    "customer": "Imran Ali",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2026-03-07"
+  },
+  {
+    "id": 14001,
+    "title": "Chat support disconnecting",
+    "description": "Live chat disconnects frequently.",
+    "customer": "Tania Khatun",
+    "priority": "Medium",
+    "status": "In-Progress",
+    "createdAt": "2026-03-08"
+  }
+]

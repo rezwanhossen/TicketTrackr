@@ -3,8 +3,8 @@ import { Facebook, Instagram, Linkedin, X } from "lucide-react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#000000]">
-      <footer className="footer sm:footer-horizontal  text-base-content p-10">
+    <div>
+      <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content   p-10">
         <aside>
           <h1 className="text-2xl md:text-5xl mb-4">TicketTrackr</h1>
           <p>
@@ -47,7 +47,7 @@ const Footer = () => {
           </p>
         </nav>
       </footer>
-      <footer className="footer sm:footer-horizontal footer-center  text-base-content p-4">
+      <footer className="footer sm:footer-horizontal footer-center  bg-neutral text-neutral-content p-4">
         <aside>
           <p>
             Copyright © {new Date().getFullYear()} - All right reserved by
